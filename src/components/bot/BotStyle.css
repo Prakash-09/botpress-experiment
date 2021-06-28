@@ -1,0 +1,91 @@
+.bpw-widget-btn {
+    background-color: #ff8c00 !important;
+}
+.bpw-widget-btn:hover {
+    background-color: #1a73e8 !important;
+}
+.bpw-floating-button {
+    border-radius: 50% !important;
+}
+.bpw-layout {
+    position: fixed !important;
+    bottom: 2% !important;
+    right: 2% !important;
+    padding: 0.5em !important;
+    height: 70% !important;
+    border-left: none !important;
+}
+.bpw-chat-container {
+    background-color: transparent !important;
+    color: #000000 !important;
+}
+.bpw-header-container {
+    border: none !important;
+}
+.bpw-header-title-container {
+    display: none !important;
+}
+.bpw-header-icon-reset{
+    display: none !important;
+}
+.bpw-header-icon-download{
+    display: none !important;
+}
+.bpw-header-icon-close{
+    position: fixed !important;
+    right: 3% !important;
+}
+.bpw-header-icon svg, .bpw-header-icon svg path {
+    fill: #1a73e8 !important;
+}
+.bpw-chat-bubble-content {
+    border: none !important;
+    padding: 0.5rem 0.75rem !important;
+}
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+    background-color: #ff8c00 !important;
+    border-radius: 5em !important;
+    color: #ffffff !important;
+}
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+    background-color: #1a73e8 !important;
+    border-radius: 5em !important;
+}
+.bpw-bubble-session_reset {
+    background-color: red !important;
+}
+
+.bpw-keyboard-quick_reply {
+    background-color: #e7f1fc !important;
+    border: none !important;
+    border-radius: 5em !important;
+}
+.bpw-button{
+    background-color: #ff8c00 !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 5em !important;
+}
+.bpw-button:hover {
+    background-color: #1a73e8 !important;
+}
+.bpw-composer {
+    border: none !important;
+    padding: 0em !important;
+    border-radius: 5em !important;
+    border: 1px solid #1a73e8 !important;
+}
+.bpw-composer-inner {
+    display: flex !important;
+    padding: 0em !important;
+    height: 45px !important;
+}
+.bpw-send-buttons {
+    padding-right: 0.5em !important;
+}
+.bpw-send-button {
+    border-radius: 5em;
+}
+.bpw-powered {
+    display: none !important;
+}

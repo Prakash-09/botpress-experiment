@@ -1,0 +1,7 @@
+.App{
+    background: linear-gradient(-45deg, #ffffff 40%, #ff8c00 );
+    min-height: 100vh;
+}
+.app-heading{
+    text-align: center;
+}
