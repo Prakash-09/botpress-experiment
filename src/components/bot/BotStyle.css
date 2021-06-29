@@ -38,33 +38,56 @@
 .bpw-header-icon svg, .bpw-header-icon svg path {
     fill: #1a73e8 !important;
 }
+.bpw-message-big-container{
+    margin: 0.3rem 0 !important;
+}
+.bpw-from-user {
+    padding-right: 0;
+    display: inline;
+}
+.bpw-from-user .bpw-bot-avatar {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: -34px !important;
+    float: right !important;
+    width: 10% !important;
+}
+.bpw-from-user .bpw-message-container {
+    width: 88%;
+}
 .bpw-chat-bubble-content {
     border: none !important;
-    padding: 0.5rem 0.75rem !important;
+    padding: 0.3rem 0.75rem !important;
 }
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-    background-color: #ff8c00 !important;
-    border-radius: 5em !important;
-    color: #ffffff !important;
+    background-color: #f1f1f1 !important;
+    border-radius: 5px !important;
+    color: #000000 !important;
 }
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
     background-color: #1a73e8 !important;
-    border-radius: 5em !important;
+    border-radius: 5px !important;
 }
 .bpw-bubble-session_reset {
     background-color: red !important;
+}
+.Linkify div{
+    font-size: small !important;
+}
+.bpw-bubble-file a img {
+    max-height: 120px !important;
 }
 
 .bpw-keyboard-quick_reply {
     background-color: #e7f1fc !important;
     border: none !important;
-    border-radius: 5em !important;
+    border-radius: 5px !important;
 }
 .bpw-button{
     background-color: #ff8c00 !important;
     color: #ffffff !important;
     border: none !important;
-    border-radius: 5em !important;
+    border-radius: 5px !important;
 }
 .bpw-button:hover {
     background-color: #1a73e8 !important;
@@ -72,7 +95,7 @@
 .bpw-composer {
     border: none !important;
     padding: 0em !important;
-    border-radius: 5em !important;
+    border-radius: 5px !important;
     border: 1px solid #1a73e8 !important;
 }
 .bpw-composer-inner {
@@ -85,7 +108,10 @@
 }
 .bpw-send-button {
     border-radius: 5em;
+    background: url('https://img.icons8.com/ios/50/000000/sent.png') !important;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.bpw-powered {
+/* .bpw-powered {
     display: none !important;
-}
+} */
